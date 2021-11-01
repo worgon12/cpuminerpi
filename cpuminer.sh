@@ -14,6 +14,8 @@ cd ~/cpuminer-opt/make clean
 cd ~/cpuminer-multi/make clean
 sudo rm -fr ~/cpuminer-multi
 sudo rm -fr ~/cpuminer-opt
+sudo apt update
+sudo apt upgrade -y
 sudo apt install automake git screen autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make -y
 git clone https://github.com/tpruvot/cpuminer-multi.git
 #git clone https://github.com/glukolog/cpuminer-opt.git
