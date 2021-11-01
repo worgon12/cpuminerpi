@@ -1,1 +1,1 @@
-# cpuminerpi for Mining
+# cpuminerpi Install Script for Miner Compile
