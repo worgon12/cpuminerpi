@@ -1,0 +1,1 @@
+# cpuminerpi for Mining
