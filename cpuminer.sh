@@ -11,6 +11,7 @@ echo "${RED}First of all we will install the dependencies${NC}"
 echo "${RED}Starting installing the dependencies, please do not close the window${NC}"
 sleep 5
 cd ~/cpuminer-opt/make clean
+cd ~/cpuminer-multi/make clean
 sudo rm -fr ~/cpuminer-multi
 sudo rm -fr ~/cpuminer-opt
 sudo apt install automake git screen autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make -y
